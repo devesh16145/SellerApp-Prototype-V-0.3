@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply font-sans text-gray-800;
+  }
+  
+  h1 {
+    @apply text-2xl font-bold text-agri-green;
+  }
+  
+  input {
+    @apply p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-agri-green;
+  }
+}
